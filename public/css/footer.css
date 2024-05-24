@@ -48,3 +48,29 @@ footer{
 .footer-link:hover{
     color: #fff;
 }
+
+.footer-title , .info {
+    color: rgba(255, 255, 255, 0.75);
+    margin: 20px 0;
+}
+.footer-title{
+    text-transform: capitalize;
+    margin-top: 80px;
+    color: #fff;
+}
+
+.footer-social-container{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.social-link{
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.social-link:nth-child(1){
+    margin-left: 0;
+}

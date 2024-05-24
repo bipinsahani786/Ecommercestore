@@ -1,31 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecommerce</title>
+    <title>Product</title>
     <link rel="stylesheet" href="css/home.css">
-    
+    <link rel="stylesheet" href="css/product.css">
 </head>
-
 <body>
-    <nav class="navbar">
+    <nav class="navbar"></nav>
 
-    </nav>
-
-    <!-- hero section -->
-    <header class="hero-section">
-        <div class="content">
-            <img src="img/light-logo.png" class="logo" alt="">
-            <p class="sub-heading">Best fashion collection of all time</p>
+    <section class="product-details">
+        <div class="image-slider">
+            <div class="product-images">
+                <img src="img/product image 1.png" class="active" alt="">
+                <img src="img/product image 2.png" alt="">
+                <img src="img/product image 3.png" alt="">
+                <img src="img/product image 4.png" alt="">
+            </div>
         </div>
+        <div class="details">
+            <h2 class="product-brand">calvin klein</h2>
+            <p class="product-short-des">Lorem ipsum dolor sit amet c.</p>
+            <span class="product-price">$99</span>
+            <span class="product-actual-price">$200</span>
+            <span class="product-discount">(50% off)</span>
 
-    </header>
+            <p class="product-sub-heading">select size</p>
 
-    <!-- cards-container -->
+            <input type="radio" name="size" checked value="s" hidden id="s-size">
+            <label for="s-size" class="size-radio-btn check">s</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-btn">m</label>
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l-size" class="size-radio-btn">l</label>
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-btn">xl</label>
+            <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+            <label for="xxl-size" class="size-radio-btn">xxl</label>
 
-    <section class="product">
+            <button class="cart-btn btn">add to cart</button>
+            <button class="btn">add to whishlist</button>
+
+        </div>
+    </section>
+
+    <section class="detail-des">
+        <h2 class="heading">description</h2>
+        <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores similique quia sequi illo suscipit sed, rem architecto nihil. Quis rerum hic velit saepe vero aperiam recusandae blanditiis dolorem molestiae accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quidem at cupiditate molestias, itaque laborum! Quaerat expedita porro nobis quidem qui, ullam iusto! Molestiae laborum beatae sapiente dicta ducimus voluptatem cupiditate ea, amet repellendus delectus dolor odit possimus optio ex doloremque? A laborum iure qui libero ea, culpa itaque magni.</p>
+    </section>
+       <!-- cards-container -->
+
+       <section class="product">
         <h2 class="product-category"> Best selling</h2>
         <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
         <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
@@ -116,30 +142,10 @@
             </div>
         </div>
     </section>
+       <!-- cards-container -->
 
-
-    <!-- collections -->
-    <section class="collection-container">
-        <a href="" class="collection">
-            <img src="img/women-collection.png" alt="">
-            <p class="collection-title">women <br> apparels</p>
-        </a>
-        <a href="" class="collection">
-            <img src="img/men-collection.png" alt="">
-            <p class="collection-title">men <br> apparels</p>
-        </a>
-        <a href="" class="collection">
-            <img src="img/accessories-collection.png" alt="">
-            <p class="collection-title">Accessories </p>
-        </a>
-
-
-    </section>
-
-    <!-- shoes card container -->
-
-    <section class="product">
-        <h2 class="product-category">Shoes</h2>
+       <section class="product">
+        <h2 class="product-category"> Best selling</h2>
         <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
         <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
         <div class="product-container">
@@ -229,159 +235,12 @@
             </div>
         </div>
     </section>
-    <!-- shirts  -->
-    <section class="product">
-        <h2 class="product-category">Shirts </h2>
-        <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
-        <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
-        <div class="product-container">
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card1.png" alt="" class="product-thumb">
-                    <button class="card-btn">add to whishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about product</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card2.png" alt="" class="product-thumb">
-                    <button class="card-btn">add to whishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about product</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card3.png" alt="" class="product-thumb">
-                    <button class="card-btn">add to whishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about product</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card4.png" alt="" class="product-thumb">
-                    <button class="card-btn">add to whishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about product</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card5.png" alt="" class="product-thumb">
-                    <button class="card-btn">add to whishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about product</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card6.png" alt="" class="product-thumb">
-                    <button class="card-btn">add to whishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about product</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card7.png" alt="" class="product-thumb">
-                    <button class="card-btn">add to whishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about product</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- footer  -->
-    <footer>
-        <!-- <div class="footer-content">
-            <img src="img/light-logo.png" class="logo" alt="">
-            <div class="footer-ul-container">
-                <ul class="category">
-                    <li class="category-title">Men</li>
-                    <li><a href="" class="footer-link">t-shirts</a></li>
-                    <li><a href="" class="footer-link">sweatshirts</a></li>
-                    <li><a href="" class="footer-link">shirts</a></li>
-                    <li><a href="" class="footer-link">jeans</a></li>
-                    <li><a href="" class="footer-link">trousers</a></li>
-                    <li><a href="" class="footer-link">shoes</a></li>
-                    <li><a href="" class="footer-link">casuals</a></li>
-                    <li><a href="" class="footer-link">formals</a></li>
-                    <li><a href="" class="footer-link">sports</a></li>
-                    <li><a href="" class="footer-link">watch</a></li>
+    <footer></footer>
 
 
-
-                </ul>
-                <ul class="category">
-                    <li class="category-title">Women</li>
-                    <li><a href="" class="footer-link">t-shirts</a></li>
-                    <li><a href="" class="footer-link">sweatshirts</a></li>
-                    <li><a href="" class="footer-link">shirts</a></li>
-                    <li><a href="" class="footer-link">jeans</a></li>
-                    <li><a href="" class="footer-link">trousers</a></li>
-                    <li><a href="" class="footer-link">shoes</a></li>
-                    <li><a href="" class="footer-link">casuals</a></li>
-                    <li><a href="" class="footer-link">formals</a></li>
-                    <li><a href="" class="footer-link">sports</a></li>
-                    <li><a href="" class="footer-link">watch</a></li>
-
-
-
-                </ul>
-            </div>
-        </div>
-        <p class="footer-title">about company</p>
-        <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptatem, sapiente consequuntur nemo tempore placeat doloribus sunt sequi! Et quasi porro, molestias quis voluptatum nulla obcaecati voluptates, sed eos doloribus fugit, illum modi officia. Reiciendis debitis consequuntur fuga animi temporibus! Architecto dolorum cumque minus, quos repudiandae laborum illum nostrum quas?</p>
-        <p class="info">Support emails -- bipinsahani786@gmail.com</p>
-        <p class="info">Phone no - 7049711475</p>
-
-        <div class="footer-social-container">
-            <div>
-                <a href="" class="social-link">terms & condition</a>
-                <a href="" class="social-link">privacy page</a>
-            </div>
-            <div>
-                <a href="" class="social-link">instagram</a>
-                <a href="" class="social-link">facebook</a>
-            </div>
-        </div> -->
-    </footer>
-
-
-    <script src="js/nav.js"></script>
     <script src="js/home.js"></script>
+    <script src="js/nav.js"></script>
     <script src="js/footer.js"></script>
+    <script src="js/product.js"></script>
 </body>
-
 </html>
